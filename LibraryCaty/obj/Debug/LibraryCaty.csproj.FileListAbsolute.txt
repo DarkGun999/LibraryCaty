@@ -16,3 +16,4 @@ C:\Users\DarkGun999\source\repos\LibraryCaty\LibraryCaty\bin\Debug\policy.2.0.ta
 C:\Users\DarkGun999\source\repos\LibraryCaty\LibraryCaty\bin\Debug\taglib-sharp.dll
 C:\Users\DarkGun999\source\repos\LibraryCaty\LibraryCaty\bin\Debug\policy.2.0.taglib-sharp.config
 C:\Users\DarkGun999\source\repos\LibraryCaty\LibraryCaty\obj\Debug\LibraryCaty.csproj.CopyComplete
+C:\Users\DarkGun999\source\repos\LibraryCaty\LibraryCaty\obj\Debug\LibraryCaty.csprojAssemblyReference.cache

@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LibraryCaty"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="LibraryCaty" Height="450" Width="800">
     <Grid>
-        <Button Content="BPM Matching" Margin="123,261,429,0" VerticalAlignment="Top" Height="115" Click="BPMButton_Click"/>
-        <ProgressBar Height="18" Margin="123,238,123,0" VerticalAlignment="Top" Minimum="0" Name="lcStatus"/>
-        <TextBlock Text="{Binding ElementName=lcStatus, Path=Value, StringFormat={}{0:0}%}" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" RenderTransformOrigin="0.244,4.284" Margin="380,239,379,163" Width="33" Height="17" />
-        
         <Label Content="LibraryCaty ist ein Tool zur Sortierung von Musik in verschiedenen Sektoren!&#xD;&#xA;Es wird ständig erweitert und bietet immer mehr Funktionen!&#xD;&#xA;Aktuelle Version: 0.0.1&#xD;&#xA;" Margin="190,10,190,341" VerticalAlignment="Center" Height="68"/>
         <Label Content="Bitte gebe hier den Pfad ein wo Musik &#xD;&#xA;in bestimmte Ordner sortiert werden sollen:" Margin="278,115,274,252" VerticalAlignment="Center" Height="52" HorizontalAlignment="Center"/>
         <TextBox Height="23" Margin="233,172,213,0" TextWrapping="Wrap" Text="Pfad" VerticalAlignment="Top" MaxLines="1"/>
+        
+        <Button Content="BPM Matching" Margin="123,261,429,0" VerticalAlignment="Top" Height="115" Click="BPMButton_Click"/>
+        <ProgressBar Height="18" Margin="123,238,123,0" VerticalAlignment="Top" Minimum="0" Name="lcStatus"/>
+        <TextBlock Text="{Binding ElementName=lcStatus, Path=Value, StringFormat={}{0:0}%}" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" RenderTransformOrigin="0.244,4.284" Margin="380,239,379,163" Width="33" Height="17" />
         <Button Content="Neue Songs sortieren" Margin="429,261,123,0" VerticalAlignment="Top" Height="115" Click="NewSongsButton_Click"/>
     </Grid>
 </Window>
