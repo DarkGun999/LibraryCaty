@@ -1,0 +1,3 @@
+# LibraryCaty
+Its a tool for DJs and Music Lovers to Categories there Music into separate Folders (BPM, Genre...)
+CURRENTLY IN ALPHA, new updates coming soon...
