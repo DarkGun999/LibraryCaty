@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MahApps.Metro.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.Design;
@@ -21,7 +22,7 @@ namespace LibraryCaty
     /// <summary>
     /// Interaktionslogik für MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
         public MainWindow()
         {
@@ -46,6 +47,11 @@ namespace LibraryCaty
             {
                 Methods.NewSongsCaty(path, lcStatus);
             }
+        }
+
+        private void LaunchGitHubSite(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/omgitsjan");
         }
     }
 }
