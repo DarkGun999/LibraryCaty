@@ -1,9 +1,8 @@
 # Security Policy
 
 ## Supported Versions
-Currently im not supprted security updates because the project is currently in an alpha phase. If my first real release is uploaded, i will be support the project 
-regularly with security updates.
-If you find some problems feel free to share or to give some solutions.
+
+Currently, the project not support security updates because its in an alpha phase. If my first  release is uploaded, I will be support the project regularly with security updates. If you find some problems feel free to share or to give some solutions.
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -13,4 +12,4 @@ If you find some problems feel free to share or to give some solutions.
 ## Reporting a Vulnerability
 
 If you find something broken on my code just tell me on Discord (DarkGun999#1605).
-I try to update this Project at least montly, if the first version is uploaded i try to fix every problem as fast as i could.
+I try to update this Project at least monthly, if the first version is uploaded I try to fix every problem as fast as I could.
